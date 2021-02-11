@@ -6,7 +6,7 @@
 
 To start a project enter the following command
 
-```bash	django-admin start project aakashsite ```
+```	django-admin start project aakashsite ```
 
 So then go to the django project folder 
 type in 
