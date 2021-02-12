@@ -1,10 +1,12 @@
 <html>
 <head>
+	<title>
+		{% block title %}
+			Aakash site
+		{% endblock %}
+	</title>
 </head>
 <body>
-	{% block title %}
-		Aakash site
-	{% endblock %}
 	<div id="content" name="content">
 	{% block content %}
 

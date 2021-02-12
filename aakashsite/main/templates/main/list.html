@@ -1,10 +1,10 @@
 {% extends "main/base.html" %}
 
 {% block title %} 
-	<h1>{{ls.name}}</h1>
 {% endblock %}
 
 {% block content %}
+	<h1>{{ls.name}}</h1>
 	<ul>
 		{% for item in ls.item_set.all %}
 			{% if item.complete == False %}
