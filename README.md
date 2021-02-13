@@ -1,4 +1,4 @@
-# DjangoTutorials
+# ToDoApp
 
 > Learning Django through youtube
 
